@@ -14,7 +14,6 @@ const Header = () => {
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
         <img src="./logo.png" alt="logo" width={100} />
-
         {/* menu */}
         <OutsideClickHandler
           onOutsideClick={() => {
